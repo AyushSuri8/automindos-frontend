@@ -5,10 +5,15 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AutomindOS | Autonomous AI Operating System</title>
+    
+    <!-- Restored Tailwind CDN for immediate styling support -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Light Theme Configuration -->
     <script>
       tailwind.config = {
         theme: {
@@ -39,6 +44,7 @@
         }
       }
     </script>
+    
     <style>
       body {
         background-color: #f8fafc;
@@ -46,12 +52,14 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
+      /* Updated Light Theme Glass Panel */
       .glass-panel {
         background: rgba(255, 255, 255, 0.7);
         backdrop-filter: blur(12px);
-        border: 1px solid rgba(148, 163, 184, 0.2);
+        border: 1px solid rgba(226, 232, 240, 0.8); /* slate-200 */
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
       }
+      /* Updated Light Theme Grid */
       .grid-bg {
         background-image: linear-gradient(rgba(148, 163, 184, 0.08) 1px, transparent 1px),
         linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
@@ -78,7 +86,7 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+<!-- Removed external css link to prevent MIME errors -->
 </head>
   <body>
     <div id="root"></div>
