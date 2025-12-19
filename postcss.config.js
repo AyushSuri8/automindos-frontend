@@ -1,6 +1,4 @@
+// PostCSS config disabled to support CDN-only deployment
 export default {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
+  plugins: {}
 }
