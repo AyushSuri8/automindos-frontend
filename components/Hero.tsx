@@ -29,7 +29,7 @@ export const Hero: React.FC = () => {
 
       <h1 className="text-4xl md:text-6xl font-medium text-center tracking-tight text-slate-900 mb-6 leading-[1.1]">
         The Operating System <br />
-        <span className="text-slate-500">for Autonomous Agents</span>
+        <span className="text-slate-500">for Autonomous Systems</span>
       </h1>
 
       <p className="text-lg md:text-xl text-slate-600 text-center max-w-2xl mb-10 font-light leading-relaxed">
